@@ -1,0 +1,87 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1728406970237-bc699733f027?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+/* Container for the form */
+.container {
+    max-width: 600px; /* Set a max width for the form */
+    margin: 50px auto; /* Center the form horizontally and add space at the top */
+    padding: 20px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for form labels */
+.container label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Styling for input fields */
+.container input[type="text"],
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Light border for input fields */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-size: 16px;
+    transition: border-color 0.3s ease; /* Smooth transition for focus */
+}
+
+/* Change border color when input is focused */
+.container input[type="text"]:focus,
+.container textarea:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    outline: none; /* Remove the default outline */
+}
+
+/* Styling for the textarea */
+.container textarea {
+    height: 120px; /* Set a fixed height for the textarea */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+/* Styling for the submit button */
+.container input[type="submit"] {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for the submit button */
+.container input[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Link for back to dashboard */
+.container a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007BFF; /* Blue text */
+    font-size: 16px;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for the link */
+.container a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}

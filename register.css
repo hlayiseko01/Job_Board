@@ -1,0 +1,101 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://images.unsplash.com/photo-1602578984228-c98a9b995f3e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+/* Form container */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* 50% transparent background */
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: deepskyblue;
+}
+
+/* Form layout and labels */
+.register-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Input fields */
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Input focus effect */
+.register-form input[type="text"]:focus,
+.register-form input[type="email"]:focus,
+.register-form input[type="password"]:focus {
+    border-color: #555;
+}
+
+/* Submit button */
+.register-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+.register-form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Responsive layout */
+@media (max-width: 480px) {
+    .form-container {
+        padding: 15px;
+    }
+
+    .register-form label {
+        font-size: 1rem;
+    }
+
+    .register-form input[type="submit"] {
+        font-size: 1rem;
+    }
+}
+p {
+    text-align: center;
+}
+span{
+    text-align: center;
+}
+a {
+    color: #007bff;
+}

@@ -1,0 +1,104 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the form container */
+.login-form {
+    background-image: url("https://images.unsplash.com/photo-1724405143873-cdaa5cac918e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Styling the labels */
+.login-form label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Styling the input fields */
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Input fields focus effect */
+.login-form input[type="email"]:focus,
+.login-form input[type="password"]:focus {
+    border-color: #555;
+}
+
+/* Styling the submit button */
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+.login-form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Styling the paragraph text */
+.login-form p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Styling the register link */
+.login-form p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Register link hover effect */
+.login-form p a:hover {
+    text-decoration: underline;
+}
+
+/* Media queries for responsive layout */
+@media (max-width: 480px) {
+    .login-form {
+        padding: 15px;
+    }
+
+    .login-form label {
+        font-size: 1rem;
+    }
+
+    .login-form input[type="submit"] {
+        font-size: 1rem;
+    }
+}

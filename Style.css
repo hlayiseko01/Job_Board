@@ -1,0 +1,137 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Button container styling */
+.button-container {
+    text-align: center; /* Center the buttons */
+    margin-top: 20px; /* Add spacing above the button container */
+}
+
+/* Styling for all navigation buttons */
+.nav-button {
+    background-color: #007BFF; /* Blue color for the buttons */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    margin: 5px; /* Add space between buttons */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    font-size: 16px; /* Font size for the button text */
+    text-decoration: none; /* Remove underline from the link */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover effect for buttons */
+.nav-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Special styling for the logout button */
+.logout-button {
+    background-color: #dc3545; /* Red background */
+}
+
+/* Hover effect for the logout button */
+.logout-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Styling the <a> inside buttons to look like buttons */
+.nav-button a {
+    color: white; /* White text for the links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Ensure the links fill the button */
+.nav-button a {
+    display: block; /* Ensure the link covers the entire button */
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+
+
+
+/* Headings */
+h1, h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Job listings */
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(17, 232, 252, 0.96);
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+li:hover {
+    transform: translateY(-5px);
+}
+
+h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+strong {
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
+

@@ -1,0 +1,122 @@
+/* General page styling */
+body {
+    background-image: url("https://images.unsplash.com/photo-1726161113123-98d414829399?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form container */
+form {
+
+    background-color: rgba(0, 0, 0, 0.5); /* 50% transparent background */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto; /* Center the form and add space at the top */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: white;
+}
+
+/* Input fields and text areas */
+input[type="text"],
+textarea {
+    background-color: transparent;
+    color: white;
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Textarea specific styles */
+textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Adding some space at the bottom of the page */
+body::after {
+    content: "";
+    display: block;
+    height: 50px; /* Add space below the form */
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+    form {
+        padding: 15px;
+    }
+
+    input[type="text"],
+    textarea,
+    input[type="submit"] {
+        font-size: 14px;
+    }
+}
+/* Style the button */
+.back-btn {
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Spacing inside the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center text */
+    display: inline-block; /* Ensure it's inline */
+    transition: background-color 0.3s ease; /* Smooth background transition on hover */
+}
+
+/* Ensure the <a> link fills the button and looks like a button */
+.back-btn a {
+    text-decoration: none; /* Remove underline from link */
+    color: white; /* Ensure link text is white */
+    display: block; /* Make the link behave like a block element to fill the button */
+    height: 100%; /* Make sure the link fills the button's height */
+    width: 100%; /* Make sure the link fills the button's width */
+}
+
+/* Hover effect */
+.back-btn:hover {
+    background-color: #0056b3; /* Darker blue when hovering */
+}
+
+
