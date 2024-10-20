@@ -2,7 +2,7 @@
 
 
 $username = 'root';
-$password = 'Mmmm@0000';
+$password = '*****';
 $hostname='localhost';
 $database='mysql';
 
