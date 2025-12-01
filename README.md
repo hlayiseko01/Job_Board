@@ -46,17 +46,17 @@ project-root/
 │   ├── edit.css
 │   ├── edit.php 
 │
-├── jobseeker/
-│   ├── browse.php
-│   ├── job-details.php
 │
-├── includes/
-│   ├── db.php
-│   ├── auth.php
-│
-├── login.php
-├── register.php
+├── Register.php
+├── Search.php
+├── Style.css
+├── about.php
+├── config.php
 ├── index.php
+├── login.csd
+├── login.php
+├── logout.php
+├── register.csd
 └── README.md
 ```
 
