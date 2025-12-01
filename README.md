@@ -38,10 +38,13 @@ The system is built using a standard web stack (HTML, CSS, JavaScript, PHP, MySQ
 ```
 project-root/
 │
-├── employer/
+├── employer/  
+│   ├── add.css
+│   ├── add.php
+│   ├── dash.css
 │   ├── dashboard.php
-│   ├── post-job.php
-│   ├── manage-jobs.php
+│   ├── edit.css
+│   ├── edit.php 
 │
 ├── jobseeker/
 │   ├── browse.php
@@ -79,7 +82,7 @@ git clone <https://github.com/hlayiseko01/Job_Board>
 $host = "localhost";
 $user = "root";
 $pass = "";
-$dbname = "job_board";
+$dbname = "job_oard";
 ```
 
 4. **Run the project:**
