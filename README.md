@@ -76,13 +76,13 @@ git clone <https://github.com/hlayiseko01/Job_Board>
    * Import the `database.sql` file
 
 3. **Update database credentials:**
-   Edit `includes/db.php` and update:
+   Edit `../config.php` and update:
 
 ```
 $host = "localhost";
 $user = "root";
 $pass = "";
-$dbname = "job_oard";
+$dbname = "mysql";
 ```
 
 4. **Run the project:**
