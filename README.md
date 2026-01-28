@@ -131,6 +131,7 @@ This project is open-source and free to use.
 
 ---
 
-## 💬 Contact
-
-Feel free to reach out if you'd like help or want to collaborate!
+---
+Developed by [Bennet Hlayiseko Ramolefo](https://www.linkedin.com/in/bennet-hlayiseko-ramolefo)  
+Software Developer based in South Africa (Tzaneen).  
+[Check out my GitHub](https://github.com/hlayiseko01)
